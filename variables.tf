@@ -26,3 +26,8 @@ variable "iam_permissions" {
   description = "Specifies permissions for the IAM user."
   default     = ["ses:SendRawEmail"]
 }
+
+variable "enabled" {
+  type = bool
+  default = true
+}
