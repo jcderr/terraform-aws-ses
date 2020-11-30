@@ -27,7 +27,7 @@ variable "iam_permissions" {
   default     = ["ses:SendRawEmail"]
 }
 
-variable "enabled" {
-  type = bool
-  default = true
-}
+# variable "enabled" {
+#   type = bool
+#   default = true
+# }
